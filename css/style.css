@@ -23,6 +23,10 @@ h1 {
   justify-content: center;
 }
 
+#bottom_img {
+  width: 100%;
+}
+
 .box1,
 .box2,
 .box3,
