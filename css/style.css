@@ -24,7 +24,10 @@ h1 {
 }
 
 #bottom_img {
-  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 .box1,
@@ -133,11 +136,5 @@ footer {
 .img2,
 .img3 {
   width: 25%;
-
-  *display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  padding-left: 45px;
-  padding-top: 150px;
+  padding: 30px;
 }
