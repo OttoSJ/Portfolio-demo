@@ -1,0 +1,138 @@
+body,
+footer {
+  margin: 10px;
+}
+body {
+  background-color: rgb(155, 197, 199);
+}
+h1 {
+  text-align: center;
+  background: radial-gradient(white, cadetblue);
+  border-radius: 80%;
+}
+#container {
+  height: 300px;
+  font-size: 10px;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  -ms-text-justify: distribute;
+  padding-left: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  border: 3px solid gray;
+  width: 225px;
+  height: 375px;
+  vertical-align: top;
+
+  zoom: 1;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  background-color: cadetblue;
+}
+
+.box1 {
+  background: linear-gradient(to right, cadetblue, rgb(218, 218, 218));
+}
+
+.box2 {
+  background: linear-gradient(cadetblue, rgb(218, 217, 217));
+}
+
+.box3 {
+  background: linear-gradient(rgb(218, 218, 218), cadetblue);
+}
+
+.box4 {
+  background: linear-gradient(to left, cadetblue, rgb(218, 218, 218));
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+footer {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#footer {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(97, 126, 134);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid grey;
+  margin-top: 80px;
+}
+
+h2,
+#linksbottom,
+footer {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+#linksbottom {
+  padding: 10px;
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid rgb(62, 99, 100);
+  border-bottom: 50px solid transparent;
+  padding-right: 60px;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid rgb(62, 99, 100);
+
+  margin-left: 65px;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid rgb(62, 99, 100);
+
+  margin-left: 65px;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid rgb(62, 99, 100);
+  border-bottom: 50px solid transparent;
+  margin-left: 65px;
+}
+
+.img1,
+.img2,
+.img3 {
+  width: 250px;
+
+  *display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 45px;
+  padding-top: 150px;
+}
