@@ -136,5 +136,6 @@ footer {
 .img2,
 .img3 {
   width: 25%;
-  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
